@@ -1,0 +1,121 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    font-family:arial;
+}
+.contenedor{
+	width: 100%;
+	height: 100%;
+	/*background: lightblue;*/
+	position:fixed;
+}
+	.mitad{
+		width: 50%;
+		position: relative;
+		float: left;
+		height: 100%;
+	}
+
+	.izq{
+		background: url(gorila.png) no-repeat;
+		background-size: cover;
+	}
+
+	.der{
+		padding: 100px 150px;
+		box-sizing: border-box; /*No pasar del limite */
+	}
+
+		h1{
+			margin-top: 50px;
+			color: #3B4859;
+			text-align: center;
+		}
+
+		h5{
+			color: #3B4859;
+			font-size: 15;
+			font-weight: lighter;
+			margin: 20px 0px 10px 15px;
+		}
+
+		input,button{ /*se llaman varias clases para aplicar directamente*/
+
+			width: 100%;
+			height: 40px;
+			border: none;
+			outline: none;
+			border-radius: 17px;
+			border: 1px solid #3B4859;
+			padding: 10px;
+			box-sizing: border-box;
+			font-size: 20px;
+
+		}
+		input[type=password]{ /**/
+			background-image: url(ojo.png);
+			background-size: 10%; /*tamaño*/
+			background-repeat: no-repeat;
+			background-position: right;
+			padding-right: 40px;
+		}
+
+		button{
+			background: #3B4859;
+			color:white; 
+			margin: 20px 0px;
+		}
+		hr{
+			
+			background: rgba(0,0,0,.2);
+			height: 1px:
+			width: calc(50% - 30px);
+			border: none;
+			position: relative;
+			float: left;
+			margin-top: 5px;
+		}
+
+		h6{
+			position: relative;
+			float: left;
+			width: 80px;
+			font-size: 11px;
+			color: rgba(0,0,0,.4);
+			text-align: center;
+			margin-bottom: 10px;
+
+		}
+		.conting{
+			position: relative;
+			float: left;
+			width: 100%;
+			text-align: center;
+		}
+		img{
+			width: 40px;
+			border: 1px solid rgba(0,0,0,.2);
+			border-radius: 7px;
+			padding: 10px;
+			box-sizing: border-box;
+
+		}
+
+		.iizq{
+			margin-right: 5px;
+
+		}
+		.ider{
+			margin-left: 5px;
+		}
+		a{
+			position: relative;
+			float: left;
+			width: 100%;
+			margin-top: 20px;
+			text-align: center;
+			font-size: 12px;
+			text-decoration: none;
+			color: aquamarine;
+		}
+
